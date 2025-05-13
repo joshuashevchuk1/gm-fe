@@ -1,0 +1,19 @@
+{
+  "name": "gm-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuashevchuk1/gm-fe.git"
+  },
+  "private": true,
+  "dependencies": {
+    "vite": "^6.3.5"
+  }
+}
