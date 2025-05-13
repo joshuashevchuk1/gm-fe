@@ -18,9 +18,11 @@
  * @fileoverview Description of this file.
  */
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
-  entry : './script.ts',  // Main entry point
+  entry : './src/script.ts',  // Main entry point
   target : 'web',
   mode : 'development',
   devtool : 'inline-source-map',
